@@ -10,9 +10,15 @@
 
 | فایل | نقش |
 |---|---|
-| `src/fea/analyze.ts` | حل دستگاه، زلزله ۲۸۰۰، طراحی عضو و طراحی خودکار |
-| `src/fea/frame.ts` | هندسه، ماتریس سختی، دیافراگم صلب، ترکیب بار |
-| `src/fea/steel.ts` | ظرفیت فشاری E3، خمش F2، اندرکنش H1 |
+| `src/fea/analyze.ts` | ورودی عمومی: حل، طراحی عضو، طراحی خودکار و گزارش |
+| `src/fea/solve-frame.ts` | سختی مستقیم، چولسکی، طیف ۲۸۰۰، دریفت و θ |
+| `src/fea/design-members.ts` | ظرفیت عضو، B1، Cb و اندرکنش |
+| `src/fea/frame.ts` | صدور دوباره ماژول‌های قاب |
+| `src/fea/frame-types.ts` | نوع‌ها، ورودی پیش‌فرض، جهت عضو |
+| `src/fea/frame-stiff.ts` | ماتریس سختی محلی و سراسری |
+| `src/fea/frame-model.ts` | هندسه، بار خطی، طیف B=B1·N |
+| `src/fea/frame-dof.ts` | دیافراگم صلب، ترکیب بار، نیروهای انتها |
+| `src/fea/steel.ts` | ظرفیت فشاری E3، خمش F2، برش، H1 |
 | `src/fea/review.ts` | چک‌لیست مبحث ششم، ۲۸۰۰ و مبحث دهم |
 | `src/fea/sections.ts` | مقاطع IPE و HEB و SHS و CHS |
 
