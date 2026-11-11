@@ -56,7 +56,7 @@ function pgliteBootstrapPlugin(): Plugin {
  * `/auth/popup` route (and cannot break it by scaffolding a React page that
  * paints the full app shell in the popup).
  *
- * `signIn` (client.ts) opens `/auth/popup?providerId=\u2026` in a top-level window.
+ * `signIn` (client.ts) opens `/auth/popup?providerId=…` in a top-level window.
  * This middleware runs before TanStack Start, calls `handleAuthPopupRequest`,
  * and returns the 302 / completion HTML. Deployed apps do not use the popup
  * (full-page OAuth redirect), so `apply: "serve"` is enough.
