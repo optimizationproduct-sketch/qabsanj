@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="قاب‌سنج">
+  <rect width="32" height="32" rx="6" fill="#0E141B"/>
+  <g fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M11 23.5V10.5H25V23.5" stroke="#8AA4B8" stroke-width="1.7"/>
+    <path d="M11 17H25" stroke="#8AA4B8" stroke-width="1.7"/>
+    <path d="M7 26V13H21V26" stroke="#E3A04A" stroke-width="2.4"/>
+    <path d="M7 19.5H21" stroke="#E3A04A" stroke-width="2.4"/>
+    <path d="M7 13L11 10.5M21 13L25 10.5M21 19.5L25 17M21 26L25 23.5" stroke="#E3A04A" stroke-width="1.5"/>
+  </g>
+</svg>
